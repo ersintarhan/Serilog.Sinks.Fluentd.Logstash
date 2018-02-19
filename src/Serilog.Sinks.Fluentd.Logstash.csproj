@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageProjectUrl>https://github.com/ersintarhan/Serilog.Sinks.Fluentd.Logstash</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/ersintarhan/Serilog.Sinks.Fluentd.Logstash/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://serilog.net/images/serilog-sink-nuget.png</PackageIconUrl>
+    <PackageTags>serilog fluentd logstash</PackageTags>
+    <Description>Serilog Sinks for Fluentd</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.6.0" />
+    <PackageReference Include="Serilog.Sinks.PeriodicBatching" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
